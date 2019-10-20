@@ -2,6 +2,7 @@
 #          Connect to office 365 and exchange online using a script
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Use at your own risk 
+# NOTE: Change the $user value before running.
 
 $Loop = $true
 While ($Loop) {
@@ -32,7 +33,7 @@ While ($Loop) {
 
 #  administrative user credentials 
 
-						$user = “@jorsin.se”
+						$user = “user@example.com”
 
 # Display authentication pop out windows
 
